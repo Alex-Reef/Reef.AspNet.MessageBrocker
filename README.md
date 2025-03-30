@@ -49,7 +49,7 @@ public class MyMessageConsumer : IMessageConsumer<MyMessage>
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
 
-var kafkaConfig = builder.Configuration.GetSection("KafkaConfig").Get<KafkaConfig>()
+var kafkaConfig = builder.Configuration.GetSection("KafkaConfig").Get<MessageBrokerConfig>()
     ?? throw new InvalidOperationException("Kafka configuration is missing");
 
 builder.AddMessageBroker(kafkaConfig, x => x.AddConsumer<MyMessageConsumer>(),
