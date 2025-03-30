@@ -1,9 +1,9 @@
 ﻿using MassTransit;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using Reef.AspNet.MessageBrocker.Config;
+using Reef.AspNet.MessageBroker.Config;
 
-namespace Reef.AspNet.MessageBrocker.DI
+namespace Reef.AspNet.MessageBroker.DI
 {
 	public static partial class ServiceBuilder
 	{

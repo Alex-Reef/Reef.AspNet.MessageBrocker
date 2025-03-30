@@ -1,4 +1,4 @@
-﻿namespace Reef.AspNet.MessageBrocker.Contracts
+﻿namespace Reef.AspNet.MessageBroker.Contracts
 {
 	public interface IMessage
 	{

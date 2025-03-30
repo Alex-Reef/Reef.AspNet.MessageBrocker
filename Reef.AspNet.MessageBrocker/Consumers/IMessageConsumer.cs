@@ -1,7 +1,7 @@
 ﻿using MassTransit;
-using Reef.AspNet.MessageBrocker.Contracts;
+using Reef.AspNet.MessageBroker.Contracts;
 
-namespace Reef.AspNet.MessageBrocker.Consumers
+namespace Reef.AspNet.MessageBroker.Consumers
 {
 	public interface IMessageConsumer<TMessage> : IConsumer<TMessage>
 		where TMessage : class, IMessage

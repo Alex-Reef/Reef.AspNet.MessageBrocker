@@ -1,4 +1,4 @@
-﻿namespace Reef.AspNet.MessageBrocker.Config
+﻿namespace Reef.AspNet.MessageBroker.Config
 {
 	public class MessageBrokerConfig : IMessageBrokerConfig
 	{
